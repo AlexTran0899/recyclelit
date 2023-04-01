@@ -47,7 +47,7 @@ function main()
         headers: {'Content-Type':'application/json'}, 
         body: JSON.stringify(obj)
     })
-        .then(results => results.json())
+        .then(results =>results.json())
         .then(obj => console.log(obj));
     }
     else
@@ -62,9 +62,10 @@ function main()
 <span style='color: #ff6200;'>
 
 <h1 class = "title">RecycleLit!</h1>
-<img id="fire" src="img_fire.gif" width="1" height="1">
+<img id="fire" style="float: right;" alt="" src="https://cdn.discordapp.com/attachments/1091535243057565810/1091586604881158254/fuckfuck.jpg" width="750" height="422">
+
 <form>
-    Would you like to submit a request? Enter "Y" for yes and "N" for no: 
+    <p class = "border">Would you like to submit a request? Enter "Y" for yes and "N" for no:</p>
     <br>
     <select name="YorN" id="YorN">
         <option value="Y">Yes</option>
@@ -100,14 +101,13 @@ function main()
         <option value="Medium">Medium (plastic drawers or smaller)</option>
         <option value="Large">Large (Anything larger)</option>
     </select><br><br>
-    Please enter any notes about the item or items/extra instructions for the pickup driver:
+    <p class = "border">Please enter any notes about the item or items/extra instructions for the pickup driver:</p>
     <br><input type="text" id="itemNotes" name="itemNotes"><br><br>
 
     <br><input type="submit" value="Submit" onclick= "test(); return main();">
     
 </form>
 <p></p>
-
 </span>
 
 </body>

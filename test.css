@@ -5,7 +5,7 @@
   }
 
   p.border 
-  { border: 2px groove rgb(155, 177, 35);
+  { border: 2px groove rgb(194, 71, 0);
     border-style: groove;
     border-radius: 5px; 
     border-width: fit-content;
@@ -18,7 +18,7 @@
 
    h1.title
    {
-    font-family: Papyrus, Fantasy, Arial, sans-serif;
+    font-family: Papyrus, Fantasy;
 
    }
    #fire
@@ -36,7 +36,7 @@
   
   /* Style the header element */
   header {
-    background-color: #ccc;
+    background-color: #ff5900;
     padding: 20px;
   }
   
@@ -69,7 +69,7 @@
   article {
     width: 300px;
     margin: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #c04300;
     padding: 20px;
   }
   
